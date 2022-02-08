@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$mb)-7h*fm-j0bzsb7qki&8xzy2jj!l+#3v8t88#dty+fd8xu!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+xDEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -47,7 +47,7 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'djanZZgo.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
 ROOT_URLCONF = 'mysite.urls'
